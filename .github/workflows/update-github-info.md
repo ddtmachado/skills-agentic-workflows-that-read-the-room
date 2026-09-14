@@ -24,6 +24,7 @@ network:
     - github
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -36,15 +37,16 @@ safe-outputs:
 
 Read `notes/mona-notes.md` using the GitHub repository read tools before making any changes.
 
-Fetch and review both of these public sources:
+Fetch and review all of these public sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the notes and the fetched sources to identify concise, practical updates that help
 developers learn GitHub faster. Update only `site/content/github-info.md`, keeping the
-content source-backed and mentioning whether each update comes from the GitHub Blog or
-GitHub Changelog.
+content source-backed and mentioning whether each update comes from the GitHub Blog,
+GitHub Changelog, or Awesome Copilot Workflows.
 
 When there is a meaningful update, use the `create-pull-request` safe output to open a
 pull request against `main` for Mona to review. Do not write directly to `main`, and do
