@@ -187,6 +187,10 @@ When a user interacts with you:
 3. **Follow the loaded prompt's instructions** exactly
 4. **If uncertain**, ask clarifying questions to determine the right prompt
 
+### Workflow Editing Rule
+
+When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
+
 ## Quick Reference
 
 ```bash
